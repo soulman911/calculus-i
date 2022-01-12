@@ -63,7 +63,7 @@
 
         </frontmatter>
 
-        <chapter>
+        <chapter xml:id="review">
             <title>Review</title>
             <introduction>This chapter reviews some of the skills you have learned in previous courses.</introduction>
             
@@ -77,7 +77,7 @@
 
         </chapter>
 
-        <chapter>
+        <chapter xml:id="limits">
             <title>Limits</title>
             <p>Information goes here</p>
         </chapter>
