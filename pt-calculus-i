@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext>
+
+    <docinfo>
+    <!-- 
+        <brandlogo url="http://webwork.maa.org/" source="imagines/webwork-logo.png" /> 
+        <macros>
+            \newcommand{\definiteintegral}[4]{\int_{#1}^{#2}\,#3\, d#4}
+            \newcommand{\indefiniteintegral}[2]{\int#1\,d#2}
+        </macros>
+    -->
+        <cross-references text="type-global" />
+        <initialism>WWSC</initialism>
+    <!--
+        <feedback> 
+            <url>not-implemented.html</url>
+        </feedback        
+    -->
+      
+        <latex-image-preamble>
+            \usepackage{tikz}
+        </latex-image-preamble>       
+    
+        <latex-image-preamble syntax="PGtikz">
+            \usepackage{pgfplots}
+            \pgfplotsset{
+                every axis/ .append style={
+                    axis lines=middle,
+                    xlabel={\(x\)},
+                    ylabel={\(y\)},
+                    grid = both
+                }
+            }
+        </latex-image-preamble>
+    </docinfo>
+
+    <book xml:id="calculus-i">
+
+        <title>Calculus I</title>
+        <subtitle>Early Transcendental Functions</subtitle>
+
+        <frontmatter xml:id="frontmatter">
+
+            <titlepage>
+                <author>
+                    <personname>Dan Sohl</personname>
+                    <department>Department of Mathematics</department>
+                    <!--
+                        <institution>
+                            <line>Institution Name</line>
+                            <line>Location, State, USA</line>
+                        </institution>
+                    -->
+                    <email>sohldan@gmail.com</email>
+                </author>
+                <date><today /></date>
+            </titlepage>
+
+            <abstract>
+                <p>This text is designed to give students an introduction to Calculus I</p>
+                <p>Topics and course learning outcomes to come!</p>
+            </abstract>
+
+        </frontmatter>
+
+        <chapter>
+            <title>Review</title>
+            <introduction>This chapter reviews some of the skills you have learned in previous courses.</introduction>
+            
+            <section>
+                <title>Logarithms</title>
+            </section>
+
+            <section>
+                <title>Domain and Range</title>
+            </section>
+
+        </chapter>
+
+        <chapter>
+            <title>Limits</title>
+            <p>Information goes here</p>
+        </chapter>
+    </book>
+</pretext>
+
